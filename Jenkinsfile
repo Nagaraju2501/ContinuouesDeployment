@@ -2,9 +2,9 @@ pipeline {
     agent any
     
     environment {
-        SERVICE_NAME = "bulbclass"
-        ORGANIZATION_NAME = "frankisinfotech"
-        DOCKERHUB_USERNAME = "frankisinfotech"
+        SERVICE_NAME = "CDdeploy"
+        ORGANIZATION_NAME = "rajutechsys"
+        DOCKERHUB_USERNAME = "rajutechsys"
         REPOSITORY_TAG = "${DOCKERHUB_USERNAME}/${ORGANIZATION_NAME}-${SERVICE_NAME}:${BUILD_ID}"
     }
    
